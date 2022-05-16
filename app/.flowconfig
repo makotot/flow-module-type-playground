@@ -1,0 +1,14 @@
+[ignore]
+.*/node_modules/resolve/test/resolver/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]
+unclear-type
+untyped-type-import

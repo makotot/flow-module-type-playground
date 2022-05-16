@@ -1,0 +1,19 @@
+{
+  "name": "my-pkg",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "files": ["lib"],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc && ./flowgen.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "flowgen": "1.19.0",
+    "typescript": "4.6.4"
+  }
+}
